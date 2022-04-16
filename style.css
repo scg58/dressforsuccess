@@ -31,6 +31,52 @@ h2{
   text-align: center;
 }
 
+
+.navlogo{
+  padding: 1.5%;
+}
+
+nav {
+  position: relative;
+  text-align: left;
+}
+
+nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;   
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem; 
+  }
+
+  nav a:hover {
+    color: #E92B29;
+  }
+
+  button{
+    border-color: #EF91BE;
+    border-style: solid;
+    border-width: 3px;
+    color:#E92B29;
+    background-color: #DCD9A5;
+    border-radius: 25px;
+    text-align: center;
+    padding: .8em .8em;
+    display:block;
+
+  }
+  
+ 
+
 .hero-image {
     background-image: url("images/headerimage.png");
       height: 100vh;
@@ -52,34 +98,58 @@ h2{
   background: url(images/backgroundimage1.png);
   height: 100vh;
   background-size: cover;
+  margin-bottom: 70px;
+
 }
 
 .volunteer-img{
   background: url(images/backgroundimage2.png);
   height: 100vh;
   background-size: cover;
+  margin-bottom: 70px;
+
 }
 
 .ad-img{
   background: url(images/backgroundimage3.png);
   height: 100vh;
   background-size: cover;
+  margin-bottom: 70px;
+
 }
 
 .blog-img{
   background: url(images/backgroundimage4.png);
   height: 100vh;
   background-size: cover;
+  margin-bottom: 70px;
+
 }
 
 
+.aboutwrapper{
+  display: flex;
+  justify-content: left;
+  padding-bottom: 70px;
+  
+}
 
+div.tipswrapper{
+  display: flex;
+  padding-bottom: 70px;
 
+}
 
+.cta{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
 
-
-
-
+.inspirationwrapper{
+  display: flex;
+  padding-bottom: 70px; 
+}
 
 
 .footer.img{
@@ -96,6 +166,8 @@ h2{
   text-align: center; 
   font-size: 20px;
   padding-top: 25px;
+ 
+
 }
 
 
