@@ -30,7 +30,10 @@ h2{
   font-weight: 400;
   text-align: center;
 }
-
+ 
+p{
+  line-height: 1.4rem;
+}
 
 .navlogo{
   padding: 1.5%;
@@ -126,16 +129,17 @@ nav li {
 
 }
 
-
 .aboutwrapper{
   display: flex;
-  justify-content: left;
+  justify-content: center;
   padding-bottom: 70px;
+  gap: 15px;
   
 }
 
-div.tipswrapper{
+.tipswrapper{
   display: flex;
+  justify-content: center;
   padding-bottom: 70px;
 
 }
@@ -158,6 +162,31 @@ div.tipswrapper{
   background-size: cover;
 }
 
+.card{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h3{
+  margin-bottom: 15px;
+}
+
+.card button{
+  margin-top: 20px;
+  width: 150px;
+}
+
+
+
+.tipcard{
+display: flex;
+padding: 15px;
+gap: 10px;
+width: 350px;
+
+}
 
 .footer {
   height:250px;
