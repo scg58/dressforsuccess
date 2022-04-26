@@ -90,7 +90,6 @@ nav li {
     text-align: center;
     padding: .8em .8em;
     display:block;
-
   }
   
  .herobutton{
@@ -98,6 +97,29 @@ nav li {
    align-items: center;
    justify-content: center;
    gap: 15px;
+   
+ }
+
+ .herobutton button{
+   color: white;
+   border-color: white;
+   background: none;
+ }
+
+ .interview-btn{
+   display: block;
+   margin: 0 auto 35px;
+ }
+
+ .cta-btn{
+  color: white;
+  border-color: white;
+  background: none;
+ }
+
+ .ad-btn{
+  display: block;
+  margin: 0 auto 40px;
  }
 
 .hero-image {
@@ -162,7 +184,7 @@ nav li {
 .tipswrapper{
   display: flex;
   justify-content: center;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
   padding-top: 30px;
 
 }
@@ -171,11 +193,27 @@ nav li {
 
 .ctawrapper{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 70px;
-  gap: 80px;
+  gap: 40px;
   text-align: center;
   line-height: 2rem;
+}
+
+.cta {
+  background-color: #A2B1BF;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 200px;
+
+}
+
+.cta-txt{
+  color: white;
 }
 
 .blogwrapper{
@@ -203,7 +241,8 @@ nav li {
 }
 
 .adwrapper{
-  padding-bottom: 70px;
+  padding-top: 20px;
+  padding-bottom: 40px;
   justify-content: center;
 }
 
@@ -272,6 +311,10 @@ column-gap: 20px;
   padding: 1.3em;
   color: white;
   }
+
+  .footer li a:hover{
+    color:#EF91BE
+    }
 
   .navlogofooter{
     display: flex;
