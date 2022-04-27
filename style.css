@@ -74,7 +74,9 @@ nav li {
   nav a:hover {
     color: #E92B29;
   }
-
+a{
+  text-decoration: none;
+}
 
  ul{
   display: flex;
@@ -97,6 +99,7 @@ nav li {
    align-items: center;
    justify-content: center;
    gap: 15px;
+   
    
  }
 
@@ -272,13 +275,9 @@ nav li {
 
 .tipcard{
 display: flex;
-padding: 15px;
-gap: 30px;
-row-gap: 20px;
-column-gap: 20px;
-
+padding: 20px;
+column-gap: 30px;
 }
-
 
 
 
