@@ -55,7 +55,6 @@ nav li {
 
 .navbar{
   display: flex;
-  padding-left: 500px;
   padding-top: 33px;
   text-align: left;
 }
